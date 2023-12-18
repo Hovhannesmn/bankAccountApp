@@ -1,0 +1,214 @@
+[
+    {
+        "Id": "82dae101023a04e7952525859d4e2eba791a96769148270e9d496d097af1fe0b",
+        "Created": "2023-12-18T06:33:41.892069177Z",
+        "Path": "/app/main",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 800102,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2023-12-18T06:33:42.021819011Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:a1db321ac2de4fa33f69ad5a75a8dc2e352f36e944f7755434a562653f3446be",
+        "ResolvConfPath": "/var/lib/docker/containers/82dae101023a04e7952525859d4e2eba791a96769148270e9d496d097af1fe0b/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/82dae101023a04e7952525859d4e2eba791a96769148270e9d496d097af1fe0b/hostname",
+        "HostsPath": "/var/lib/docker/containers/82dae101023a04e7952525859d4e2eba791a96769148270e9d496d097af1fe0b/hosts",
+        "LogPath": "/var/lib/docker/containers/82dae101023a04e7952525859d4e2eba791a96769148270e9d496d097af1fe0b/82dae101023a04e7952525859d4e2eba791a96769148270e9d496d097af1fe0b-json.log",
+        "Name": "/simplebank",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bank-network",
+            "PortBindings": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                18,
+                228
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/a656d2119e53571ea402782f67fff32eeded91f8ae5ee1c2588c6269ae5ef128-init/diff:/var/lib/docker/overlay2/cxp1gteur60vfir7zpghb51zp/diff:/var/lib/docker/overlay2/fnddt5pgveoava5gryjh5to9a/diff:/var/lib/docker/overlay2/kvlk4bnl15oc32zpxazrsfh79/diff:/var/lib/docker/overlay2/e3304c7112efbb5eacb8064d44eadb0200dd0ce3996a94f2849fcff540214ec0/diff",
+                "MergedDir": "/var/lib/docker/overlay2/a656d2119e53571ea402782f67fff32eeded91f8ae5ee1c2588c6269ae5ef128/merged",
+                "UpperDir": "/var/lib/docker/overlay2/a656d2119e53571ea402782f67fff32eeded91f8ae5ee1c2588c6269ae5ef128/diff",
+                "WorkDir": "/var/lib/docker/overlay2/a656d2119e53571ea402782f67fff32eeded91f8ae5ee1c2588c6269ae5ef128/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "82dae101023a",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "DB_SOURCE=postgresql://root:secret@postgres:5433/simple_bank?sslmode=disable",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/app/main"
+            ],
+            "Image": "simplebank:latest",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "f71017e9c4994eede2759614f2bde963feab385a8e49c8451370485e437d7db2",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/f71017e9c499",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bank-network": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "82dae101023a"
+                    ],
+                    "NetworkID": "64b868120069816c2273e092250bf27607b07e3a4e7cef6422295ec532611fce",
+                    "EndpointID": "15b26a7bded1a62e8f0c77e2682e9b018e107e872cae9ba84cdf1f77a5947b66",
+                    "Gateway": "172.20.0.1",
+                    "IPAddress": "172.20.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:14:00:03",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]

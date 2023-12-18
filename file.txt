@@ -1,0 +1,1 @@
+Attaching to simplebank-api-1, simplebank-postgres-1

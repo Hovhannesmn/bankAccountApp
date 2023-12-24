@@ -41,7 +41,7 @@ jobs:
           docker push -a $ECR_REGISTRY/$ECR_REPOSITORY
 
       - name: Update kube config
-        run: aws eks update-kubeconfig --name simple-bank --region us-east-1
+        run: aws eks update-kubeconfig --name bank-transfer --region us-east-1
 
       - name: Deploy image to Amazon EKS
         run: |

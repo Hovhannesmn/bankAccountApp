@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+data:
+  POSTGRES_USER: "root"
+  POSTGRES_PASSWORD: "secret"
+  POSTGRES_DB: "simple_bank"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bank-api-deployment
+  labels:
+    app: simple-bank-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simple-bank-api
+  template:
+    metadata:
+      labels:
+        app: simple-bank-api
+    spec:
+      containers:
+        - name: simple-bank-api
+          image: hovhannesmn/bankaccountapp-api:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
